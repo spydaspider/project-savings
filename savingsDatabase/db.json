@@ -1,0 +1,59 @@
+{
+  "individualSavings": [],
+  "stepIncomes": [],
+  "individualSavingsAccum": [
+    {
+      "appName": "Dickson",
+      "staffNumber": "gra34",
+      "district": "Achimota",
+      "telephone": "0547231765",
+      "totalSavings": 4000,
+      "transactionId": "",
+      "dropout": false,
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "username": "Dickson",
+      "password": "filament",
+      "id": 1
+    }
+  ],
+  "members": [
+    {
+      "appName": "Dickson",
+      "staffNumber": "gra34",
+      "district": "Achimota",
+      "telephone": "0547231765",
+      "monthlySavings": "50",
+      "witnessName": "Dickson",
+      "witnessContact": "0547231966",
+      "nomineeName1": "Dickson",
+      "nomineeName2": "",
+      "nomineeName3": "",
+      "nRelationship1": "me",
+      "nRelationship2": "",
+      "nRelationship3": "",
+      "nPercentage1": "10",
+      "nPercentage2": "",
+      "nPercentage3": "",
+      "date": "2023-02-08",
+      "time": "14:09:01.159Z",
+      "id": 1
+    }
+  ],
+  "withdrawalsAccum": [
+    {
+      "appName": "Dickson",
+      "staffNumber": "gra34",
+      "district": "Achimota",
+      "telephone": "0547231765",
+      "totalWithdrawals": 1000,
+      "transactionId": "",
+      "dropout": false,
+      "id": 1
+    }
+  ],
+  "withdrawals": []
+}
