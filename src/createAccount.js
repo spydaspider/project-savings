@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import useFetch from './useFetch.js';
 import {useHistory} from 'react-router-dom';
-import { scryRenderedComponentsWithType } from 'react-dom/test-utils';
+import Navigation from './nav.js';
 const CreateAccount = () =>{
    const [username,setUsername] = useState('');
    const [password, setPassword] = useState('');
@@ -54,10 +54,13 @@ const CreateAccount = () =>{
    }
    return (
       <div className = "create-account-wrapper">
+                    <Navigation/>
+
     <div className = "create-account">
       <h2 className = "create-account-title">Create Account</h2>
          {nameTaken && <p className = "create-account-error">Username is already taken</p>}
          {!passMatch && <p className = "create-account-error">Passwords do not match</p>}
+         {error && <p className="create-account-error">Server error, Restart (SAVINGS 2)</p>}
 
          <form onSubmit = {handleSubmit}>
                <input type = "text" value = {username} onChange = {(e)=>{setUsername(e.target.value)}} placeholder = "Username" required />

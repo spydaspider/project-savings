@@ -22,6 +22,7 @@ import HirePurchases from './hirePurchase';
 import HirePurchaseDeduction from './deductionPages/hirePurchaseDeduction';
 import Withdrawal from './withdrawal';
 import BacklogMembership from './backlogMembership';
+import Navigation from './nav';
 import TopPrompt from './topPrompt';
 function App() {
   const [loggedIn,setLoggedIn] = useState(false);
@@ -53,6 +54,7 @@ function App() {
   return (
     <Router>
     <div className="App">
+           <Navigation/>
     <div className = "content">
       <TopPrompt/>
     

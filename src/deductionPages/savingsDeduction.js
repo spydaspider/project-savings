@@ -245,8 +245,7 @@ setFilteredMembers(filteredMembers);
    
     return (
         <div className = "loan-deductions-wrapper">
-             <SecondNavigation/>
-             <Navigation/>
+          
 {/*         {successPrompt && <SuccessPrompt message = "Monthly savings have been successfully deducted." handleSuccessClose = {handleSuccessClose}/>}
  */}        {prompt && <div className = "prompt-dialog-background">
           <div onClick = {handleClose} className = "prompt-dialog-close">

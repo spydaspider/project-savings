@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom';
 import CreateLog from './helpers/createLog';
 import { BrowserRouter as Router,Route,Switch} from 'react-router-dom'; 
 import Store from './helpers/storage';
+import Navigation from './nav';
 const Login = () =>{
   const history = useHistory();
   const [userExists,setUserExists] = useState(true);
@@ -50,11 +51,13 @@ const Login = () =>{
    
      Store.addLocalStorage('log',log);  
      history.push("/search");
-     window.location.reload();
- }
+/*      window.location.reload();
+ */ }
   }
    return (
     <div className = "login-container">
+                 <Navigation/>
+
     <div className = "login-form">
       <h2 className = "login-title">Login</h2>
       {!userExists && <p className = "not-exist">Invalid username or password</p>}

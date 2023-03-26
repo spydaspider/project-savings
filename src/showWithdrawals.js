@@ -41,7 +41,7 @@ const ShowWithdrawals = ({staffNumber}) =>{
 return(
        
     <div className = "show-is">
-       {individualSavings && filteredIS && <h1 className = "total-savings-title">All Savings made by applicant</h1>}
+       {individualSavings && filteredIS && <h1 className = "total-savings-title">All Withdrawals made by applicant</h1>}
          <div className = "total-savings">
                         <span className = "tsa">Gross Amount Withdrawn: {netSaving && Number(netSaving).toFixed(2)}cedis</span>
 

@@ -14,8 +14,7 @@ const Deductions =()=>{
     }
    return(
     <div className = "deductions-wrapper">
-        <SecondNavigation/>
-        <Navigation/>
+        
     <div className = "deductions">
         <div className = "deduction-buttons">
         <button onClick = {handleSavingsDeduction}>Monthly Savings Deduction</button>

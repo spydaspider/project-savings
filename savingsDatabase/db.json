@@ -4,13 +4,23 @@
   "individualSavingsAccum": [
     {
       "appName": "Dickson",
-      "staffNumber": "gra34",
+      "staffNumber": "gra342",
       "district": "Achimota",
       "telephone": "0547231765",
-      "totalSavings": 4000,
-      "transactionId": "",
+      "totalSavings": 3990,
+      "transactionId": "54656",
       "dropout": false,
       "id": 1
+    },
+    {
+      "appName": "Eric",
+      "staffNumber": "gra789",
+      "district": "Achimota",
+      "telephone": "054783662",
+      "totalSavings": 2000,
+      "transactionId": "",
+      "dropout": false,
+      "id": 2
     }
   ],
   "users": [
@@ -18,42 +28,91 @@
       "username": "Dickson",
       "password": "filament",
       "id": 1
+    },
+    {
+      "username": "spydaspideriphone@gmail.com",
+      "password": "filament",
+      "id": 2
     }
   ],
   "members": [
     {
-      "appName": "Dickson",
-      "staffNumber": "gra34",
-      "district": "Achimota",
-      "telephone": "0547231765",
-      "monthlySavings": "50",
-      "witnessName": "Dickson",
-      "witnessContact": "0547231966",
-      "nomineeName1": "Dickson",
+      "appName": "Dennis",
+      "staffNumber": "gra342",
+      "district": "Accra",
+      "telephone": "0547231966",
+      "monthlySavings": "60",
+      "witnessName": "Spyda",
+      "witnessContact": "054723432",
+      "nomineeName1": "Derick",
       "nomineeName2": "",
       "nomineeName3": "",
-      "nRelationship1": "me",
+      "nRelationship1": "brother",
       "nRelationship2": "",
       "nRelationship3": "",
-      "nPercentage1": "10",
+      "nPercentage1": "100",
       "nPercentage2": "",
       "nPercentage3": "",
-      "date": "2023-02-08",
-      "time": "14:09:01.159Z",
+      "date": "2023-03-26",
+      "time": "23:03:40.230Z",
       "id": 1
+    },
+    {
+      "appName": "Eric",
+      "staffNumber": "gra789",
+      "district": "Achimota",
+      "telephone": "054783662",
+      "monthlySavings": "50",
+      "witnessName": "Dickson",
+      "witnessContact": "05464353",
+      "nomineeName1": "Joel",
+      "nomineeName2": "",
+      "nomineeName3": "",
+      "nRelationship1": "Uncle",
+      "nRelationship2": "",
+      "nRelationship3": "",
+      "nPercentage1": "20",
+      "nPercentage2": "",
+      "nPercentage3": "",
+      "date": "2023-01-01",
+      "time": "23:03:02.510Z",
+      "dropout": false,
+      "id": 2
     }
   ],
   "withdrawalsAccum": [
     {
       "appName": "Dickson",
-      "staffNumber": "gra34",
+      "staffNumber": "gra342",
       "district": "Achimota",
       "telephone": "0547231765",
-      "totalWithdrawals": 1000,
+      "totalWithdrawals": 1010,
       "transactionId": "",
       "dropout": false,
       "id": 1
+    },
+    {
+      "appName": "Eric",
+      "staffNumber": "gra789",
+      "district": "Achimota",
+      "telephone": "054783662",
+      "totalWithdrawals": 2000,
+      "transactionId": "50",
+      "dropout": false,
+      "id": 2
     }
   ],
-  "withdrawals": []
+  "withdrawals": [
+    {
+      "appName": "Dennis",
+      "staffNumber": "gra342",
+      "district": "Accra",
+      "telephone": "0547231966",
+      "withdrawalAmount": "10",
+      "transactionId": "54656",
+      "date": "2023-03-26",
+      "time": "23:23:45.584Z",
+      "id": 1
+    }
+  ]
 }

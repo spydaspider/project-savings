@@ -799,8 +799,7 @@ const MemberDetails = () =>{
             }
    return (
     <div className = "membership-form-wrapper">
-        <SecondNavigation/>
-        <Navigation/>
+        
     <div className = "membership-form">
             
             <h1>M<span>em</span>be<span>r Fi</span>le</h1>
