@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "concurrency": "^0.1.4",
+    "concurrent": "^0.3.2",
     "git": "^0.1.5",
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.1",
@@ -22,9 +24,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "client": "npm start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "concurrently \"npx json-server --watch savingsDatabase/db.json --host 127.0.0.1 --port 8060 --no-watch\" \"npm run client\""
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +50,7 @@
   },
   "devDependencies": {
     "body-parser": "^1.20.0",
+    "concurrently": "^8.2.0",
     "json-server": "^0.17.0",
     "jsonwebtoken": "^8.5.1"
   }
